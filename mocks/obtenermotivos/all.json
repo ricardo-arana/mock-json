@@ -1,0 +1,12 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "OK",
+    "transaccion": "Motivos",
+    "motivos": [
+        {"descripcion": "Precio y contenido del plan no me satisface"},
+        {"descripcion": "Tengo problemas con el equipo móvil"},
+        {"descripcion": "He tenido problemas con la señal de mi servicio"},
+        {"descripcion": "Tengo problemas con mi factura/cobros"}
+  
+    ]
+  }

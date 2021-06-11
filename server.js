@@ -9,6 +9,9 @@ app.use(cors());
 
 app.use(express.json());
 
+
+app.use('/cambio-plan-movil', require('./routes/cambio-plan-movil'));
+
 app.use('/migracion-pre-post', require('./routes/migracion-pre-post'));
 
 app.get('/', (req, res) => {

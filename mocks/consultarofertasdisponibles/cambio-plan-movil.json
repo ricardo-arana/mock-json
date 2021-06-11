@@ -1,0 +1,208 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "{\"OK\"}",
+    "productoActual": {
+        "idOfertaProducto": "125",
+        "nombreComercial": "MAXILIMITADO",
+        "costoMensual": "89.90",
+        "codigoImagen": "max-ilimitado",
+        "cicloFacturacion": "12",
+        "textoSmsLlamadas": "Llamadas y SMS ilimitados",
+        "gbAltaVelocidad": {
+            "cantidad": "15 GB"
+        },
+        "servicios": [
+            {
+                "descripcion": "ilimitado",
+                "codigo": "15",
+                "valor": "whatsapp"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "16",
+                "valor": "facebook"
+            },            
+            {
+                "descripcion": "ilimitado",
+                "codigo": "17",
+                "valor": "messenger"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "19",
+                "valor": "waze"
+            },
+             {
+                "descripcion": "ilimitado",
+                "codigo": "20",
+                "valor": "instagram"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "21",
+                "valor": "claro-club"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "22",
+                "valor": "claro-musica"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "23",
+                "valor": "claro-video"
+            }
+        ]
+    },
+    "ofertaProducto": [
+        {
+            "idOfertaProducto": "126",
+            "nombreComercial": "MAXILIMITADO",
+            "codigoImagen": "max-ilimitado",
+            "costoMensual": "99.90",
+            "textoSmsLlamadas": "Llamadas y SMS ilimitados",
+            "recomendado": "true",
+            "gbAltaVelocidad": {
+                "cantidad": "15 GB",
+                "text": {
+                    "normal": "de velocidad de ",
+                    "bold": "descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "UP",
+                    "text": "15 GB más que el plan actual"
+                }
+            },
+            "servicios": [
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "15",
+                    "valor": "claro-video"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "16",
+                    "valor": "claro-musica"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "17",
+                    "valor": "claro-club"
+                }
+            ]
+        },
+        {
+            "idOfertaProducto": "127",
+            "nombreComercial": "MAX",
+            "codigoImagen": "max",
+            "costoMensual": "35.90",
+            "textoSmsLlamadas": "Llamadas y SMS ilimitados",
+            "recomendado": "flase",
+            "gbAltaVelocidad": {
+                "cantidad": "15 GB",
+                "text": {
+                    "normal": "de velocidad de ",
+                    "bold": "descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "UP",
+                    "text": "15 GB más que el plan actual"
+                }
+            },
+            "servicios": [
+                 {
+                    "descripcion": "ilimitado",
+                    "codigo": "15",
+                    "valor": "claro-video"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "16",
+                    "valor": "claro-musica"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "17",
+                    "valor": "claro-club"
+                }
+            ]
+        },
+        {
+            "idOfertaProducto": "128",
+            "nombreComercial": "MAX",
+            "codigoImagen": "max",
+            "costoMensual": "25.90",
+            "textoSmsLlamadas": "Llamadas y SMS ilimitados",
+            "recomendado": "flase",
+            "gbAltaVelocidad": {
+                "cantidad": "15 GB",
+                "text": {
+                    "normal": "de velocidad de ",
+                    "bold": "descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "UP",
+                    "text": "15 GB más que el plan actual"
+                }
+            },
+            "servicios": [
+                 {
+                    "descripcion": "ilimitado",
+                    "codigo": "15",
+                    "valor": "claro-video"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "16",
+                    "valor": "claro-musica"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "17",
+                    "valor": "claro-club"
+                }
+            ]
+        },
+        {
+            "idOfertaProducto": "129",
+            "nombreComercial": "MAXILIMITADO",
+            "codigoImagen": "max-ilimitado",
+            "costoMensual": "229.90",
+            "textoSmsLlamadas": "Llamadas y SMS ilimitados",
+            "recomendado": "flase",
+            "gbAltaVelocidad": {
+                "cantidad": "15 GB",
+                "text": {
+                    "normal": "de velocidad de ",
+                    "bold": "descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "UP",
+                    "text": "15 GB más que el plan actual"
+                }
+            },
+            "servicios": [
+                 {
+                    "descripcion": "ilimitado",
+                    "codigo": "15",
+                    "valor": "claro-video"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "16",
+                    "valor": "claro-musica"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "17",
+                    "valor": "claro-club"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "19",
+                    "valor": "waze"
+                }
+            ]
+        }
+    ]
+}
