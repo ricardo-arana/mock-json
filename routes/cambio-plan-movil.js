@@ -27,7 +27,7 @@ router.post('/clarosites/ordenes/procesarorden', (req, res) => {
     res.json(obj);
 })
 
-router.post('/clarosites/beneficios/consultar/:plan', (req, res) => {
+router.get('/clarosites/beneficios/consultar/:plan', (req, res) => {
     
     let obj = JSON.parse(fs.readFileSync('mocks/beneficios/all.json', 'utf8'));
     res.json(obj);
