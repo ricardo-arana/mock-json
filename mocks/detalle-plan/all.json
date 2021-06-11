@@ -1,0 +1,46 @@
+{
+    "codigoRespuesta": "200",
+    "mensajeRespuesta": "Exito",
+    "planClaro": "Max ilimitado 89",
+    "items": 7,
+    "beneficios": [
+        {
+            "titulo": "Llamadas ilimitadas",
+            "descripcion": "A cualquier operador del Perú y LDI 3.",
+            "enlace": {}
+        },
+        {
+            "titulo": "Claro Video",
+            "descripcion": "Con Claro Video mira tus series y peliculas donde quieras",
+            "enlace": {
+                "url": "https://tiendaclaro.pe/catalogo/personas/hogar-alambrico/pago-mensual/hogar/internet_tv_telefonia/todos",
+                "text": "Entretenimiento de alta definición con lo último del mercado"
+            }
+        },
+        {
+            "titulo": "SMS ilimitado",
+            "descripcion": "Para comunicarte a destinos nacionales.",
+            "enlace": {}
+        },
+        {
+            "titulo": "Redes Sociales",
+            "descripcion": "Waze, Twitter, Whatsapp, FB Full y Messenger Full por 12 meses. Instagram hasta el 30/04/20.",
+            "enlace": {}
+        },
+        {
+            "titulo": "Claro Video",
+            "descripcion": "Sin consumir tus megas en 4G y 4.5G LTE hasta el 30/04/20.",
+            "enlace": {}
+        },
+        {
+            "titulo": "NUEVO Claro música",
+            "descripcion": "Los últimos lanzamientos gratis sin consumir tus megas hasta el 30/04/20.",
+            "enlace": {}
+        },
+        {
+            "titulo": "Claro Club",
+            "descripcion": "Disfruta por ser parte del programa de beneficios de Claro.",
+            "enlace": {}
+        }
+    ]
+}
