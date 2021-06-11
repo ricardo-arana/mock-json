@@ -12,6 +12,8 @@ app.use(express.json());
 
 app.use('/cambio-plan-movil', require('./routes/cambio-plan-movil'));
 
+app.use('/cambio-plan-fija', require('./routes/cambio-plan-fija'));
+
 app.use('/migracion-pre-post', require('./routes/migracion-pre-post'));
 
 app.get('/', (req, res) => {

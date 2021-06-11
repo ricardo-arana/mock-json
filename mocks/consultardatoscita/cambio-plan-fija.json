@@ -1,0 +1,39 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "Exito",
+    "direccion": "calle nstra Sra. De las Gracias, Mz. A Lt. 1",
+    "referencia": "Altura del Parque Kennedy",
+    "telefonoContacto": "937249943",
+    "fechasDisponibles": [
+        {
+            "fecha": "09/04/2021"
+        },
+        {
+            "fecha": "10/04/2021"
+        },
+        {
+            "fecha": "11/04/2021"
+        },
+        {
+            "fecha": "12/04/2021"
+        }
+    ],
+    "rangosHorarios": [
+        {
+            "desde": "8:00 am",
+            "hasta": "10:00 am"
+        },
+        {
+            "desde": "10:00 am",
+            "hasta": "12:00 pm"
+        },
+        {
+            "desde": "2:00 pm",
+            "hasta": "4:00 pm"
+        },
+        {
+            "desde": "4:00 pm",
+            "hasta": "6:00 pm"
+        }
+    ]
+}

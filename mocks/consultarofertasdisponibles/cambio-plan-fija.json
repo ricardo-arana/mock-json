@@ -1,0 +1,133 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "Exito",
+    "productoActual": {
+        "idOfertaProducto": "125",
+        "nombreComercial": "2 PLAY 100Mbps",
+        "costoMensual": "100",
+        "cicloFacturacion": "12",
+        "textoSmsLlamadas": "+100 minutos a cualquier destino nacional",
+        "gbAltaVelocidad": {
+            "cantidad": "100 mbps",
+            "text": {
+                "normal": "de velocidad de descarga ilimitada"
+            }
+        },
+        "servicios": [
+            {
+                "descripcion": "ilimitado",
+                "codigo": "15",
+                "valor": "phone_call"
+            },
+            {
+                "descripcion": "100 mbpa",
+                "codigo": "16",
+                "valor": "router"
+            }
+        ]
+    },
+    "ofertaProducto": [
+        {
+            "idOfertaProducto": "126",
+            "nombreComercial": "3 PLAY 200Mbps",
+            "costoMensual": "125.90",
+            "textoSmsLlamadas": "+100 minutos a cualquier destino nacional",
+            "recomendado": "true",
+            "gbAltaVelocidad": {
+                "cantidad": "200Mbps",
+                "text": {
+                    "normal": "de velocidad de descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "UP",
+                    "text": "100Mbps más que en tu plan actual"
+                }
+            },
+            "servicios": [
+                {
+                    "descripcion": "televisor",
+                    "codigo": "15",
+                    "valor": "tv"
+                },
+                {
+                    "descripcion": "Internet",
+                    "codigo": "16",
+                    "valor": "router"
+                },
+                {
+                    "descripcion": "Teléfono",
+                    "codigo": "17",
+                    "valor": "phone_call"
+                }
+            ]
+        },
+        {
+            "idOfertaProducto": "126",
+            "nombreComercial": "3 PLAY 300Mbps",
+            "costoMensual": "89.90",
+            "textoSmsLlamadas": "+100 minutos a cualquier destino nacional",
+            "recomendado": "true",
+            "gbAltaVelocidad": {
+                "cantidad": "300Mbps",
+                "text": {
+                    "normal": "de velocidad de descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "UP",
+                    "text": "200Mbps más que en tu plan actual"
+                }
+            },
+            "servicios": [
+                {
+                    "descripcion": "televisor",
+                    "codigo": "15",
+                    "valor": "tv"
+                },
+                {
+                    "descripcion": "Internet",
+                    "codigo": "16",
+                    "valor": "router"
+                },
+                {
+                    "descripcion": "Teléfono",
+                    "codigo": "17",
+                    "valor": "phone_call"
+                }
+            ]
+        },
+          {
+            "idOfertaProducto": "128",
+            "nombreComercial": "2 PLAY 80Mbps",
+            "costoMensual": "89.90",
+            "textoSmsLlamadas": "+100 minutos a cualquier destino nacional",
+            "recomendado": "true",
+            "gbAltaVelocidad": {
+                "cantidad": "80Mbps",
+                "text": {
+                    "normal": "de velocidad de descarga ilimitada"
+                },
+                "diferencia": {
+                    "flecha": "DOWN",
+                    "text": "80Mbps más que en tu plan actual"
+                }
+            },
+            "servicios": [
+                {
+                    "descripcion": "televisor",
+                    "codigo": "15",
+                    "valor": "tv"
+                },
+                {
+                    "descripcion": "Internet",
+                    "codigo": "16",
+                    "valor": "router"
+                },
+                {
+                    "descripcion": "Teléfono",
+                    "codigo": "17",
+                    "valor": "phone_call"
+                }
+            ]
+        }
+    ]
+}
