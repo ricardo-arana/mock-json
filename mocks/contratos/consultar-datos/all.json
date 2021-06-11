@@ -1,0 +1,22 @@
+{
+    "codigoRespuesta": "200",
+    "mensajeRespuesta": "ERROR",
+    "limiteConsumo": "Exacto",
+    "roaming": "true",
+    "diasDisponiblesSuspension": "14",
+    "contrato": {
+        "idContrato": "95485563",
+        "fechaActivacion": "08-03-2021",
+        "idPublicoContrato": "CONTR0095456601",
+        "cuentaFacturacion": {
+            "idCuentaFact": "1325162",
+            "idCicloFact": "92",
+            "cuentaCliente": {
+                "idCliente": "101243819",
+                "idPublicoCliente": "CUST0000009197",
+                "nroCuenta": "1.90886875",
+                "segmento": "S"
+            }
+        }
+    }
+}

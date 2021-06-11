@@ -8,6 +8,17 @@ router.get('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
     res.json(obj);
 })
 
+router.post('/clarosites/contratos/consultardatos', (req, res) => {
+    
+    let obj = JSON.parse(fs.readFileSync('mocks/contratos/consultar-datos/all.json', 'utf8'));
+    res.json(obj);
+})
+
+router.post('/clarosites/contratos/consultaracuerdocontrato', (req, res) => {
+    
+    let obj = JSON.parse(fs.readFileSync('mocks/contratos/consultar-acuerdo-contrato/all.json', 'utf8'));
+    res.json(obj);
+})
 
 router.get('/clarosites/detalleplan/consultar/:plan', (req, res) => {
     

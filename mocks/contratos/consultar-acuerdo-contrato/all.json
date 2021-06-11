@@ -1,0 +1,13 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "Exito",
+    "penalidadContrato": {
+        "monto": "150.00",
+        "fecha": "25/12/22"
+    },
+    "cuotasEquipo": {
+        "monto": "200.00",
+        "descripcion": "2 cuotas de S/ 100.00 cada una"
+    },
+    "total": "350.00"
+}
