@@ -1,0 +1,26 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "Success",
+    "beneficios": [
+        {
+            "descripcion": "Full Claro",
+            "icono": "full_claro"
+        },
+        {
+            "descripcion": "Puntos Claro Club",
+            "icono": "claro_club"
+        },
+        {
+            "descripcion": "Bonos comerciales",
+            "icono": "bono"
+        },
+        {
+            "descripcion": "Bonos de Millas Latam",
+            "icono": "millas"
+        },
+        {
+            "descripcion": "Equipo(s) a cuotas",
+            "icono": "cellphone"
+        }
+    ]
+}
