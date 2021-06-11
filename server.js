@@ -18,6 +18,6 @@ app.get('/', (req, res) => {
     res.send('hola')
 })
 
-app.listen( 9000 , () => {
-    console.log('servidor corriendo en el puerto ' + 9000)
+app.listen( process.env.PORT , () => {
+    console.log('servidor corriendo en el puerto ' + process.env.PORT)
 })
