@@ -15,6 +15,7 @@ app.use('/cambio-plan-movil', require('./routes/cambio-plan-movil'));
 app.use('/cambio-plan-fija', require('./routes/cambio-plan-fija'));
 
 app.use('/migracion-pre-post', require('./routes/migracion-pre-post'));
+app.use('/migracion-post-pre', require('./routes/migracion-post-pre'));
 
 app.get('/', (req, res) => {
     res.send('hola')
