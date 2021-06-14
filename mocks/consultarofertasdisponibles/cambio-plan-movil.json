@@ -97,7 +97,7 @@
             "codigoImagen": "max",
             "costoMensual": "35.90",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
-            "recomendado": "flase",
+            "recomendado": "false",
             "gbAltaVelocidad": {
                 "cantidad": "15 GB",
                 "text": {
@@ -131,18 +131,17 @@
             "idOfertaProducto": "128",
             "nombreComercial": "MAX",
             "codigoImagen": "max",
-            "costoMensual": "25.90",
+            "costoMensual": "29.90",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
-            "recomendado": "flase",
+            "recomendado": "false",
             "gbAltaVelocidad": {
-                "cantidad": "15 GB",
+                "cantidad": "6 GB",
                 "text": {
-                    "normal": "de velocidad de ",
-                    "bold": "descarga ilimitada"
+                    "normal": "de internet"
                 },
                 "diferencia": {
-                    "flecha": "UP",
-                    "text": "15 GB más que el plan actual"
+                    "flecha": "DOWN",
+                    "text": "9 GB menos que el plan actual"
                 }
             },
             "servicios": [
@@ -169,7 +168,7 @@
             "codigoImagen": "max-ilimitado",
             "costoMensual": "229.90",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
-            "recomendado": "flase",
+            "recomendado": "false",
             "gbAltaVelocidad": {
                 "cantidad": "15 GB",
                 "text": {
