@@ -6,7 +6,13 @@ router.get('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
     
     let obj = JSON.parse(fs.readFileSync('mocks/consultarofertasdisponibles/cambio-plan-movil.json', 'utf8'));
     res.json(obj);
-})
+});
+
+router.post('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
+    
+    let obj = JSON.parse(fs.readFileSync('mocks/consultarofertasdisponibles/cambio-plan-movil.json', 'utf8'));
+    res.json(obj);
+});
 
 router.post('/clarosites/contratos/consultardatos', (req, res) => {
     
