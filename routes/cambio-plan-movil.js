@@ -1,11 +1,24 @@
 const { Router } = require('express');
 const fs = require('fs');
 const router = Router();
+const clientRedis = require('../database/redis');
 
 router.post('/clarosites/ordenes/validarreglasorden', (req, res) => {
+
+    const code = clientRedis.get("cpmid", function(err, reply) {
+        let obj = JSON.parse(fs.readFileSync('mocks/validarreglasorden/cambio-plan-movil.json', 'utf8'));
+        obj.codigoRespuesta = reply;
+        res.json(obj);
+      });
     
-    let obj = JSON.parse(fs.readFileSync('mocks/validarreglasorden/cambio-plan-movil.json', 'utf8'));
-    res.json(obj);
+});
+
+router.post('/setreglaorden', (req, res) => {
+
+    const value = req.body.value;
+    clientRedis.set("cpmid", value);
+    res.json({ ok: true});
+    
 });
 
 router.get('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
