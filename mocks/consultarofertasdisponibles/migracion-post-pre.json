@@ -1,0 +1,126 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "{\"OK\"}",
+    "productoActual": {
+        "idOfertaProducto": "125",
+        "nombreComercial": "MAXILIMITADO",
+        "costoMensual": "89.90",
+        "codigoImagen": "max-ilimitado",
+        "cicloFacturacion": "12",
+        "textoSmsLlamadas": "Llamadas y SMS ilimitados",
+        "gbAltaVelocidad": {
+            "cantidad": "15 GB"
+        },
+        "servicios": [
+            {
+                "descripcion": "ilimitado",
+                "codigo": "15",
+                "valor": "whatsapp"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "16",
+                "valor": "facebook"
+            },            
+            {
+                "descripcion": "ilimitado",
+                "codigo": "17",
+                "valor": "messenger"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "19",
+                "valor": "waze"
+            },
+             {
+                "descripcion": "ilimitado",
+                "codigo": "20",
+                "valor": "instagram"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "21",
+                "valor": "claro-club"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "22",
+                "valor": "claro-musica"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "23",
+                "valor": "claro-video"
+            }
+        ]
+    },
+    "ofertaProducto": [
+        {
+            "idOfertaProducto": "126",
+            "nombreComercial": "PREPAGADO",
+            "descripcion": "Recarga y activa beneficios por 30 días",
+            "costoMensual": "40.00", 
+            "otrosCosto": ["30", "20"],
+            "costos": [],
+            "recomendado": "true",
+            "gbAltaVelocidad": {
+                "cantidad": "9 GB"
+            },
+            "textoAdicional": "con tus recargas ......",
+            "servicios": [
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "15",
+                    "valor": "claro-video"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "16",
+                    "valor": "claro-musica"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "17",
+                    "valor": "claro-club"
+                }
+            ]
+        },
+        {
+            "idOfertaProducto": "127",
+            "nombreComercial": "Prepago TUN Chévere Control",
+            "descripcion": "Decide cuándo conectar y cuántos megas utilizar",
+            "costoMensual": "", 
+            "otrosCosto": [],
+            "costos": [
+                {"servicio": "llamada", "costo": "0.49"},
+                {"servicio": "sms", "costo": "0.49"}
+            ],
+            "recomendado": "false",
+            "gbAltaVelocidad": {
+                "cantidad": ""
+            },
+            "textoAdicional": "con tus recargas ......",
+            "servicios": []
+        },
+        {
+            "idOfertaProducto": "128",
+            "nombreComercial": "Prepago TUN Chévere Automático",
+            "descripcion": "Decide cuándo conectar y cuántos megas utilizar",
+            "costoMensual": "", 
+            "otrosCosto": [],
+            "costos": [
+                {"servicio": "internet", "costo": "0.49"},
+                {"servicio": "llamada", "costo": "0.49"},
+                {"servicio": "sms", "costo": "0.49"}
+            ],
+            "recomendado": "false",
+            "gbAltaVelocidad": {
+                "cantidad": ""
+            },
+            "textoAdicional": "con tus recargas ......",
+            "servicios": []
+        }
+        
+            ]
+        
+}

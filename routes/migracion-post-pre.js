@@ -4,7 +4,7 @@ const router = Router();
 
 router.get('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
     
-    let obj = JSON.parse(fs.readFileSync('mocks/consultarofertasdisponibles/migracion-pre-post.json', 'utf8'));
+    let obj = JSON.parse(fs.readFileSync('mocks/consultarofertasdisponibles/migracion-post-pre.json', 'utf8'));
     res.json(obj);
 })
 
