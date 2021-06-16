@@ -4,12 +4,12 @@
     "productoActual": {
         "idOfertaProducto": "125",
         "nombreComercial": "MAXILIMITADO",
-        "costoMensual": "89.90",
+        "costoMensual": "65",
         "codigoImagen": "max-ilimitado",
         "cicloFacturacion": "12",
         "textoSmsLlamadas": "Llamadas y SMS ilimitados",
         "gbAltaVelocidad": {
-            "cantidad": "15 GB"
+            "cantidad": "15 GB (ILIMITADO)"
         },
         "servicios": [
             {
@@ -59,11 +59,11 @@
             "idOfertaProducto": "126",
             "nombreComercial": "MAXILIMITADO",
             "codigoImagen": "max-ilimitado",
-            "costoMensual": "99.90",
+            "costoMensual": "99.9",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
             "recomendado": "true",
             "gbAltaVelocidad": {
-                "cantidad": "15 GB",
+                "cantidad": "15 GB (ILIMITADO)",
                 "text": {
                     "normal": "de velocidad de ",
                     "bold": "descarga ilimitada"
@@ -95,11 +95,11 @@
             "idOfertaProducto": "127",
             "nombreComercial": "MAX",
             "codigoImagen": "max",
-            "costoMensual": "35.90",
+            "costoMensual": "35.9",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
             "recomendado": "false",
             "gbAltaVelocidad": {
-                "cantidad": "15 GB",
+                "cantidad": "15 GB (ILIMITADO)",
                 "text": {
                     "normal": "de velocidad de ",
                     "bold": "descarga ilimitada"
@@ -131,7 +131,7 @@
             "idOfertaProducto": "128",
             "nombreComercial": "MAX",
             "codigoImagen": "max",
-            "costoMensual": "29.90",
+            "costoMensual": "29.9",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
             "recomendado": "false",
             "gbAltaVelocidad": {
@@ -166,7 +166,7 @@
             "idOfertaProducto": "129",
             "nombreComercial": "MAXILIMITADO",
             "codigoImagen": "max-ilimitado",
-            "costoMensual": "229.90",
+            "costoMensual": "229.9",
             "textoSmsLlamadas": "Llamadas y SMS ilimitados",
             "recomendado": "false",
             "gbAltaVelocidad": {

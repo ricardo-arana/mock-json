@@ -2,7 +2,7 @@ const { Router } = require('express');
 const fs = require('fs');
 const router = Router();
 
-router.get('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
+router.post('/clarosites/ofertas/consultarofertasdisponibles', (req, res) => {
     
     let obj = JSON.parse(fs.readFileSync('mocks/consultarofertasdisponibles/cambio-plan-movil.json', 'utf8'));
     res.json(obj);
