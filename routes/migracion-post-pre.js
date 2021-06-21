@@ -5,11 +5,20 @@ const clientRedis = require('../database/redis');
 
 router.post('/clarosites/ordenes/validarreglasorden', (req, res) => {
 
-    const code = clientRedis.get("cpmid", function(err, reply) {
+    clientRedis.get("mpopeid", function(err, reply) {
         let obj = JSON.parse(fs.readFileSync('mocks/validarreglasorden/cambio-plan-movil.json', 'utf8'));
         obj.codigoRespuesta = reply;
         res.json(obj);
       });
+    
+});
+
+
+router.post('/setreglaorden', (req, res) => {
+
+    const value = req.body.value;
+    clientRedis.set("mpopeid", value);
+    res.json({ ok: true});
     
 });
 
