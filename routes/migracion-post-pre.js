@@ -53,4 +53,16 @@ router.get('/clarosites/beneficios/consultar/:plan', (req, res) => {
     let obj = JSON.parse(fs.readFileSync('mocks/beneficios/all.json', 'utf8'));
     res.json(obj);
 })  
+
+router.post('/clarosites/contratos/consultardatos', (req, res) => {
+    
+    let obj = JSON.parse(fs.readFileSync('mocks/contratos/consultar-datos/all.json', 'utf8'));
+    res.json(obj);
+})
+
+router.get('/clarosites/motivos/obtenermotivos/:id', (req, res) => {
+    
+    let obj = JSON.parse(fs.readFileSync('mocks/obtenermotivos/all.json', 'utf8'));
+    res.json(obj);
+})
 module.exports = router;
