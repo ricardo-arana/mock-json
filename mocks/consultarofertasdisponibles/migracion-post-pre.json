@@ -36,6 +36,21 @@
                 "descripcion": "ilimitado",
                 "codigo": "20",
                 "valor": "instagram"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "20",
+                "valor": "claro-club"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "20",
+                "valor": "claro-musica"
+            },
+            {
+                "descripcion": "ilimitado",
+                "codigo": "20",
+                "valor": "claro-video"
             }
         ]
     },
@@ -53,11 +68,7 @@
             },
             "textoAdicional": "con tus recargas ......",
             "servicios": [
-                {
-                    "descripcion": "ilimitado",
-                    "codigo": "15",
-                    "valor": "whatsapp"
-                },
+                
                 {
                     "descripcion": "ilimitado",
                     "codigo": "16",
@@ -70,13 +81,23 @@
                 },
                 {
                     "descripcion": "ilimitado",
+                    "codigo": "15",
+                    "valor": "whatsapp"
+                },
+                {
+                    "descripcion": "ilimitado",
                     "codigo": "19",
-                    "valor": "waze"
+                    "valor": "twitter"
                 },
                  {
                     "descripcion": "ilimitado",
                     "codigo": "20",
-                    "valor": "instagram"
+                    "valor": "telegram"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "20",
+                    "valor": "signal"
                 }
             ]
         },
