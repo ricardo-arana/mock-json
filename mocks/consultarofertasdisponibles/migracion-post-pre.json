@@ -36,21 +36,6 @@
                 "descripcion": "ilimitado",
                 "codigo": "20",
                 "valor": "instagram"
-            },
-            {
-                "descripcion": "ilimitado",
-                "codigo": "21",
-                "valor": "claro-club"
-            },
-            {
-                "descripcion": "ilimitado",
-                "codigo": "22",
-                "valor": "claro-musica"
-            },
-            {
-                "descripcion": "ilimitado",
-                "codigo": "23",
-                "valor": "claro-video"
             }
         ]
     },
@@ -71,17 +56,27 @@
                 {
                     "descripcion": "ilimitado",
                     "codigo": "15",
-                    "valor": "claro-video"
+                    "valor": "whatsapp"
                 },
                 {
                     "descripcion": "ilimitado",
                     "codigo": "16",
-                    "valor": "claro-musica"
-                },
+                    "valor": "facebook"
+                },            
                 {
                     "descripcion": "ilimitado",
                     "codigo": "17",
-                    "valor": "claro-club"
+                    "valor": "messenger"
+                },
+                {
+                    "descripcion": "ilimitado",
+                    "codigo": "19",
+                    "valor": "waze"
+                },
+                 {
+                    "descripcion": "ilimitado",
+                    "codigo": "20",
+                    "valor": "instagram"
                 }
             ]
         },
