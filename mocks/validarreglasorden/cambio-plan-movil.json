@@ -17,5 +17,14 @@
 
   "tipoCliente": "CONSUMER",
 
-  "parametrosAdicionales": null
+  "parametrosAdicionales": [
+    {
+      "campo":"numeroLinea",
+      "valor":"987654321"
+   },
+   {
+    "campo":"alias",
+    "valor":"cel trabajo"
+    }
+  ]
 }

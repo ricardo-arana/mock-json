@@ -1,0 +1,20 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "Exito",
+    "recibosVencidos": "xxxxxxxxxxxxxxxxxxx",
+    "penalidadContrato": {
+      "monto": "150.00",
+      "fecha": "25/12/22"
+    },
+    "cuotasEquipo": {
+      "monto": "200.00",
+      "descripcion": "2 cuotas de S/ 100.00 cada una"
+    },
+    "solicitudesPendientes":[
+      {
+          "solicitud":"Cambio de Plan",
+          "fecha":"22/06/2021"
+      }
+    ],
+    "total": "350.00"
+  }
