@@ -1,7 +1,7 @@
 console.log('request: ');
 const { Router } = require('express');
 const fs = require('fs');
-const { cambioPlanMovil, consultarProductosDisponibles, procesarOrden } = require('../controllers/suspension-temporal');
+//const { cambioPlanMovil, consultarProductosDisponibles, procesarOrden } = require('../controllers/suspension-temporal');
 const router = Router();
 
 const clientRedis = require('../database/redis');
