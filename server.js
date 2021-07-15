@@ -17,6 +17,7 @@ app.use('/cambio-plan-fija', require('./routes/cambio-plan-fija'));
 app.use('/migracion-pre-post', require('./routes/migracion-pre-post'));
 app.use('/migracion-post-pre', require('./routes/migracion-post-pre'));
 app.use('/baja-post', require('./routes/baja-post'));
+app.use('/suspension-temporal', require('./routes/suspension-temporal'));
 
 
 app.get('/', (req, res) => {

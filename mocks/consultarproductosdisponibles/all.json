@@ -1,0 +1,46 @@
+{
+    "codigoRespuesta": "0",
+    "mensajeRespuesta": "Operacion exitosa",
+    "productos": [
+        {
+            "tipoServicio": "Postpago",
+            "numeroLinea": "999888777",
+            "cargoMensual": "S/99.00",
+            "idPublicoContrato": "MIG000016452624",
+            "idCicloFact": "01",
+            "tecnologia": "Movil",
+            "suspendido": false,
+            "fechaReactivacion": ""
+        },
+        {
+            "tipoServicio": "Fijo | 2 Play",
+            "numeroLinea": "234567",
+            "cargoMensual": "S/130.00",
+            "idPublicoContrato": "MIG000016452625",
+            "idCicloFact": "02",
+            "tecnologia": "FTTH",
+            "suspendido": false,
+            "fechaReactivacion": ""
+        },
+        {
+            "tipoServicio": "Prepago",
+            "numeroLinea": "999777888",
+            "cargoMensual": "S/0.0",
+            "idPublicoContrato": "MIG000016452626",
+            "idCicloFact": "03",
+            "tecnologia": "Movil",
+            "suspendido": true,
+            "fechaReactivacion": "25/12"
+        },
+        {
+            "tipoServicio": "Prepago",
+            "numeroLinea": "999777888",
+            "cargoMensual": "S/0.0",
+            "idPublicoContrato": "MIG000016452626",
+            "idCicloFact": "03",
+            "tecnologia": "Movil",
+            "suspendido": false,
+            "fechaReactivacion": ""
+        }
+    ]
+}
