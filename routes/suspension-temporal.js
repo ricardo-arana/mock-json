@@ -7,12 +7,13 @@ const router = Router();
 const clientRedis = require('../database/redis');
 
 router.post('/clarosites/ordenes/validarreglasorden', (req, res) => {
-    const code = clientRedis.get('stid', function (err, reply) {
-        let obj = JSON.parse(fs.readFileSync('mocks/validarreglasorden/all.json', 'utf8'));
-        obj.codigoRespuesta = reply;
+    const code = clientRedis.get('bppid', function (err, reply) {
+        let obj = JSON.parse(fs.readFileSync('mocks/validarreglasorden/cambio-plan-movil.json', 'utf8'));
+        obj.codigoRespuesta = reply || '0';
         res.json(obj);
     });
 });
+
 
 // router.get('/clarosites/ordenes/validarreglasorden', cambioPlanMovil);
 // router.post('/clarosites/ordenes/validarreglasorden', cambioPlanMovil);
